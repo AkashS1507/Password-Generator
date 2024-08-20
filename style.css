@@ -17,8 +17,16 @@ body {
 } 
 @media (max-width: 1000px) {
     .generator {
+        width: 65%;
+		margin: 5% auto; 
+		padding: 2rem;
+    }
+  }
+@media (max-width: 600px) {
+    .generator {
         width: 85%;
 		margin: 5% auto; 
+		padding: 1rem;
     }
   }
 
