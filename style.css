@@ -9,12 +9,18 @@ body {
 } 
 
 .generator { 
-	background-color: #f5f5f5; 
-	width: 250px; 
-	margin: 150px auto; 
-	padding: 20px; 
+	background-color: #f1f1f1; 
+	width: 50%; 
+	margin: 5% auto; 
+	padding: 2rem; 
 	border-radius: 10px; 
 } 
+@media (max-width: 1000px) {
+    .generator {
+        width: 85%;
+		margin: 5% auto; 
+    }
+  }
 
 div.password { 
 	display: grid; 
@@ -24,7 +30,8 @@ div.password {
 } 
 
 div.password input { 
-	padding: 7px 10px; 
+	padding: 1rem;
+	font-size: 1.1rem; 
 	background-color: #ddd; 
 	border: 0; 
 	color: #333; 
@@ -34,7 +41,7 @@ button {
 	background-color: #4caf50; 
 	color: #fff; 
 	text-transform: uppercase; 
-	padding: 5px 15px; 
+	padding: 1rem; 
 	border: 0; 
 	border-radius: 10px; 
 } 
@@ -44,14 +51,14 @@ div.password button {
 } 
 
 div.range { 
-	margin: 10px 0; 
+	margin: 1rem 0; 
 	display: grid; 
 	grid-template-columns: 1fr min-content; 
 } 
 
 div.range span { 
 	background-color: #ddd; 
-	padding: 10px; 
+	padding: 0.75rem; 
 	margin-left: 20px; 
 	min-width: 30px; 
 	text-align: center; 
@@ -61,13 +68,13 @@ div.range span {
 div.options { 
 	display: grid; 
 	grid-template-columns: 1fr 1fr; 
-	gap: 10px; 
+	gap: 1.5rem; 
 } 
 
 div.options label { 
 	display: block; 
 	background-color: #ddd; 
-	padding: 10px; 
+	padding: 0.75rem; 
 	border-radius: 10px; 
 	cursor: pointer; 
 	font-family: sans-serif; 
@@ -75,8 +82,8 @@ div.options label {
 
 button.generate { 
 	width: 100%; 
-	margin-top: 10px; 
-	padding: 10px; 
+	margin-top: 1.5rem; 
+	padding: 1rem; 
 } 
 
 h1 { 
