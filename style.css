@@ -29,6 +29,14 @@ body {
 		padding: 1rem;
     }
   }
+  input[type="checkbox"] {
+    width: 1rem; 	
+    height: 1rem; 	
+    transform: scale(1.2); 	
+    -webkit-transform: scale(1.2); 	
+    transform-origin: 0 0; 
+	margin-right: 0.5rem;	
+}
 
 div.password { 
 	display: grid; 
