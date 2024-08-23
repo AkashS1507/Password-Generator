@@ -101,6 +101,9 @@ button.generate {
 	margin-top: 1.5rem; 
 	padding: 1rem; 
 } 
+.generate:hover {
+	box-shadow: 0 0 2px green;
+}
 
 h1 { 
 	text-align: center; 
